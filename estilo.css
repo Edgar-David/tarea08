@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    --color1:#203140;
+    --color2:#0367A6;
+    --color3:#048ABF;
+    --color4:#04B2D9;
+    --color5:#F2F2F2;
+}
+main{
+    height: 800px;
+    width: 70%;
+    margin:20px auto;
+    background-color: #F2F2F2;
+    padding: 10px;
+}
+#contenido{
+    background-image: url(img/fondo1.jpg);
+}
+#cabecera{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+   
+
+}
+#cabecera div{
+    /* border:1px solid var(--color2); */
+}
+#contenido{
+    display:flex;
+    flex-direction: row;
+    margin:10px
+}
+
+#menu{
+    width:20%;
+    border:1px solid var(--color4);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;    
+}
+.opc{
+    list-style: none;
+    height: 50%;     
+}
+.opc li{
+    height: 25%;
+}
+
+#articulo{
+    width:80%;
+    padding: 10px;
+}
+.imagen{    
+    text-align: center;
+    padding: 5px;    
+}
+.imagen img{
+    border:3px solid var(--color3);
+    padding:20px;    
+}
+.texto{
+    margin:20px;
+    border:1px solid;
+    padding:10px;
+}
+.texto h2{
+    color:var(--color1);
+    text-align: center;
+    color:var(--color5);
+    background-color:var(--color1);
+    padding:5px
+}
+.texto p{
+    padding:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:small;
+    text-align: justify;
+    color:#0367A6;
+    background-color: #F2F2F2;
+}
+.subrayado{
+    text-decoration:underline ;
+}
+#pie{
+    height: 100px;
+    border: 2px solid;
+    margin:20px;
+    padding: 10px;
+    text-align: center;
+}
+hr{
+    border:2px dotted tomato;
+    width: 75%;
+    margin: auto;
+}
